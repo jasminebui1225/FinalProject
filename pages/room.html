@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ROOM </title>
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <header id="header">
+        <div class="logo">
+            <a href="../index.html" class="logo-link"><img src="../img/logo.png" class="logo-img" alt="logo"></a>
+        </div>
+
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#"> Inspo </a></li>
+                <li><a href="room.html"> Room </a></li>
+                <li><a href="blog.html"> Blog </a></li>
+                <li><a href="#"> About </a></li>
+            </ul>
+        </nav>
+
+        <!-- Contact Button -->
+        <a href="contact.html" class="cta"> <button> Contact Us </button></a>
+
+    </header>
+
+
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search product name here.." />
+            <button id="search">Search</button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterProduct('all')">All</button>
+            <button class="button-value" onclick="filterProduct('Topwear')">
+                Topwear
+            </button>
+            <button class="button-value" onclick="filterProduct('Bottomwear')">
+                Bottomwear
+            </button>
+            <button class="button-value" onclick="filterProduct('Jacket')">
+                Jacket
+            </button>
+            <button class="button-value" onclick="filterProduct('Watch')">
+                Watch
+            </button>
+        </div>
+        <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="../js/script.js"></script>
+
+    <!-- start footer section  -->
+
+    <div class="bg-footer">
+        <div class="footer-flex">
+            <div class="footer1">
+                <h2>furniture</h2>
+                <section>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laboriosam exercitationem eius labore commodi illum autem asperiores doloribus praesentium non ut.
+                </section>
+            </div>
+            <div class="footer1">
+                <h2>helpful links</h2>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our blog</a></li>
+                <li><a href="#">visit site</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#">apply a job</a></li>
+            </div>
+            <div class="footer1">
+                <h2>shopping</h2>
+                <li><a href="#">online cards</a></li>
+                <li><a href="#">return policy</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">inventory</a></li>
+            </div>
+
+        </div>
+        <hr>
+        <div class="copy">
+            <section>
+                copyright &copy; at 2021 by <span>web tutorial.</span>
+            </section>
+        </div>
+    </div>
+    <!-- END OF FOOTER -->
+</body>
+
+</html>

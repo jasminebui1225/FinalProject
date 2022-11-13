@@ -1,0 +1,322 @@
+html {
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*to declare css of root element, html*/
+:root {
+    background: beige;
+}
+
+header li,
+a,
+button {
+
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 40px;
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: red;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+#header img {
+    width: 128px;
+    height: 51px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+/* SECTION 1: HERO IMAGE */
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/Purdue\ Fall\ 22/CGT141/FinalProject/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero,
+.hero-content {
+    color: white;
+    background-color: transparent;
+}
+
+.hero,
+.hero-content h1 {
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+.hero,
+.hero-content,
+.hero-link {
+    margin-top: 15px;
+}
+
+/* SECTION 2 */
+.style-sec {
+    width: 100%;
+    margin: 80px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-title {
+    text-align: center;
+    font-size: 10px;
+}
+
+.style {
+    margin: 20px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.style img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 136, 169, 1);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+
+.style:hover .overlay {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.style h3 {
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-5deg)skewX(-5deg);
+}
+
+/* SECTION 3: ROOMS DECORATION*/
+.room-sec {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.room-sec .room-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.room-sec .room-title p {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.room-sec .room-title h2 {
+    font-weight: 600;
+}
+
+.room-sec .room-title hr {
+    width: 120px;
+    margin: 14px auto;
+    background: gray;
+}
+
+.room-sec .room-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.room-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.room-flex .room1 {
+    width: 24%;
+    margin-bottom: 20px;
+}
+
+.room-flex .room1 img {
+    width: 100%;
+}
+
+.room-img {
+    margin: 20px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 136, 169, 1);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+
+.room1:hover .overlay1 {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.room1 h3 {
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    transform: rotate(-5deg)skewX(-5deg);
+}
+
+/* FOOTER */
+.bg-footer {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.bg-footer .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    grid-row-gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+/*
+.bg-footer {
+    background-color: white;
+    width: 100%;
+}*/
+
+.bg-footer .footer-flex .footer1 {
+    width: 24%;
+
+}
+
+.footer-flex .footer1 h2 {
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.footer-flex .footer1 section {
+    font-size: 14px;
+}
+
+.footer-flex .footer1 li {
+    font-size: 14px;
+}
+
+.footer-flex .footer1 li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.footer-flex .footer1 .footer-logo {
+    margin-top: 30px;
+}
+
+.footer1 .footer-logo img {
+    width: 100%;
+}
+
+.bg-footer hr {
+    background: #f9f9f9;
+    margin: 15px 0px;
+    height: 1px;
+    width: 100%;
+}
+
+.bg-footer .copy {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.bg-footer .copy section {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.bg-footer .copy span {
+    font-weight: bold;
+    color: var(--main-color);
+}
