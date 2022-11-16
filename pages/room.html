@@ -30,31 +30,35 @@
 
     </header>
 
+    <!-- FILTER SECTION -->
+    <section>
+        <ul>
+            <li class="list active" data-filter="all"> All </li>
+            <li class="list" data-filter="bed"> Bedroom </li>
+            <li class="list" data-filter="bath"> Bathroom </li>
+            <li class="list" data-filter="kitchen"> Kitchen </li>
+            <li class="list" data-filter="living"> Living Room </li>
+        </ul>
 
-    <div class="wrapper">
-        <div id="search-container">
-            <input type="search" id="search-input" placeholder="Search product name here.." />
-            <button id="search">Search</button>
+        <div class="room-product">
+            <div class="itemBox" data-item="bed"><img src="../img/room/bedroom1.jpg"></div>
+            <div class="itemBox" data-item="bath"><img src="../img/room/bathroom1.jpg"></div>
+            <div class="itemBox" data-item="kitchen"><img src="../img/room/kitchen1.jpg"></div>
+            <div class="itemBox" data-item="living"><img src="../img/room/living1.jpg"></div>
+            <div class="itemBox" data-item="bed"><img src="../img/room/bedroom2.jpg"></div>
+            <div class="itemBox" data-item="bath"><img src="../img/room/bathroom2.jpg"></div>
+            <div class="itemBox" data-item="kitchen"><img src="../img/room/kitchen2.jpg"></div>
+            <div class="itemBox" data-item="living"><img src="../img/room/living2.jpg"></div>
+            <div class="itemBox" data-item="bed"><img src="../img/room/bedroom3.jpg"></div>
+            <div class="itemBox" data-item="bath"><img src="../img/room/bathroom3.jpg"></div>
+            <div class="itemBox" data-item="living"><img src="../img/room/living3.jpg"></div>
         </div>
-        <div id="buttons">
-            <button class="button-value" onclick="filterProduct('all')">All</button>
-            <button class="button-value" onclick="filterProduct('Topwear')">
-                Topwear
-            </button>
-            <button class="button-value" onclick="filterProduct('Bottomwear')">
-                Bottomwear
-            </button>
-            <button class="button-value" onclick="filterProduct('Jacket')">
-                Jacket
-            </button>
-            <button class="button-value" onclick="filterProduct('Watch')">
-                Watch
-            </button>
-        </div>
-        <div id="products"></div>
-    </div>
-    <!-- Script -->
-    <script src="../js/script.js"></script>
+    </section>
+
+    <script src="../js/room.js">
+
+    </script>
+    <!-- end of room -->
 
     <!-- start footer section  -->
 

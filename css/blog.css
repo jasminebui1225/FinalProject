@@ -70,7 +70,7 @@ button:hover {
 }
 
 /* SECTION 1: HERO IMAGE */
-
+/*
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner-bg.jpg);
     background-size: cover;
@@ -98,7 +98,7 @@ button:hover {
     background-color: transparent;
 }
 
-
+*/
 /* FOOTER */
 .bg-footer {
     width: 90%;
@@ -172,14 +172,16 @@ button:hover {
 
 /*design*/
 .design {
-    padding: 4.5rem 0;
+    /*padding: 4.5rem 0;
     width: 90%;
-    margin: 100px auto;
+    margin: 100px auto;*/
+
+    width: 90%;
 }
 
 .title {
     text-align: center;
-    padding: 1rem 0;
+    /*padding: 1rem 0;*/
 }
 
 .title h2 {
@@ -420,4 +422,64 @@ img {
         grid-template-columns: auto auto;
         grid-column-gap: 1em;
     }
+}
+
+/* ROOM 2 */
+section {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+section ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    list-style: none;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active {
+    background: #6759ff;
+}
+
+.room-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.room-product .itemBox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: block;
+}
+
+.room-product .itemBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.room-product .itemBox.hide {
+    display: none;
+
 }
