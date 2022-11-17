@@ -324,7 +324,7 @@ button:hover {
     margin-bottom: 1rem;
 }
 
-/* ROOM 2 */
+/* ROOM 2 ----------------------------------------*/
 section {
     padding: 20px;
     width: 100%;
@@ -454,12 +454,6 @@ form .action {
     text-align: center;
 }
 
-
-form .action input[type="submit"] {
-    background: white;
-    color: black;
-}
-
 #form-button {
     width: 100px;
     height: 40px;
@@ -467,6 +461,7 @@ form .action input[type="submit"] {
     border: 2px solid black;
     letter-spacing: 3px;
     font-size: 12pt;
+    background-color: white;
 
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
