@@ -1,21 +1,20 @@
-html {
-    height: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: beige
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: beige;
+    height: auto;
+    font-family: sans-serif;
+
 }
 
+/*to declare css of root element, html*/
+:root {
+    background: beige;
+}
 
 header li,
 a,
 button {
-
     font-weight: 500;
     font-size: 16px;
     color: black;
@@ -23,20 +22,39 @@ button {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    transition: 0.6s;
+    padding: 10px 40px 0px 40px;
+    z-index: 100000;
+    background-color: beige;
+    list-style: none;
+    /*border-style: none none solid;
+    border-color: rgb(230, 230, 196);
+    border-radius: 1px;*/
 }
 
-.nav_links {
-    list-style: none;
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    transition: 0.5s;
 }
 
 .nav_links li {
     display: inline-block;
     padding: 0px 40px;
-
 }
 
 .nav_links li a {
@@ -62,7 +80,7 @@ button:hover {
 
 #header img {
     width: 128px;
-    height: 51px;
+    height: 50px;
 }
 
 .logo {
@@ -170,7 +188,7 @@ button:hover {
 }
 
 
-/*design*/
+/*design------------BLOGS SECTION------------*/
 .design {
     /*padding: 4.5rem 0;
     width: 90%;
@@ -186,6 +204,7 @@ button:hover {
 
 .title h2 {
     font-size: 2.4rem;
+    padding-top: 40px;
 }
 
 .title p {
@@ -346,7 +365,7 @@ section ul {
 section ul li {
     list-style: none;
     padding: 12px 20px;
-    margin: 5px;
+    margin: 20px 10px;
     letter-spacing: 1px;
     cursor: pointer;
 }
