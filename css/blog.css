@@ -189,6 +189,13 @@ button:hover {
 
 
 /*design------------BLOGS SECTION------------*/
+section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .design {
     /*padding: 4.5rem 0;
     width: 90%;
@@ -214,6 +221,7 @@ button:hover {
 }
 
 .read p:hover {
+    cursor: pointer;
     background-color: #4536e5;
 }
 
@@ -243,7 +251,6 @@ button:hover {
 }
 
 .design-item {
-    cursor: pointer;
     margin: 1.5rem 0;
 }
 
@@ -266,13 +273,14 @@ button:hover {
     transition: all 0.5s ease;
 }
 
-.design-item:hover img {
+.design-img:hover img {
     transform: scale(1.2);
+    cursor: all-scroll;
 }
 
 .design-title {
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: auto;
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -308,7 +316,7 @@ button:hover {
 }
 
 .blog-post-title {
-    font-size: 6vw;
+    font-size: 4vw;
     padding: 10px 0px;
 }
 
@@ -332,9 +340,11 @@ button:hover {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+    line-height: 1.8;
+}
 
+.container a {
+    color: #4536e5;
 }
 
 .author {
