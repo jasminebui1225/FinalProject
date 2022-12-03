@@ -163,7 +163,7 @@ button:hover {
 
 .style:hover .overlay {
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .style h3 {
@@ -175,7 +175,7 @@ button:hover {
     text-align: center;
 }
 
-/* SECTION 3: ROOMS DECORATION*/
+/* SECTION 3: ROOMS DECORATION--------------------------*/
 .room-sec {
     width: 90%;
     margin: 80px 80px 0px auto;
@@ -246,12 +246,12 @@ button:hover {
 
 .room1:hover .overlay1 {
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .room1 h3 {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 50%;
     color: white;
     position: absolute;
     text-align: center;
