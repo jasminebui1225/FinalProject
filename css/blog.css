@@ -87,36 +87,6 @@ button:hover {
     cursor: pointer;
 }
 
-/* SECTION 1: HERO IMAGE */
-/*
-.hero {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/banner-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero,
-.hero-content {
-    color: white;
-    margin-top: 15px;
-}
-
-.hero,
-.hero-content h1 {
-    font-size: 30pt;
-    font-weight: 500;
-    background-color: transparent;
-}
-
-*/
 /* FOOTER */
 .bg-footer {
     width: 90%;
@@ -186,7 +156,6 @@ button:hover {
     font-weight: bold;
     color: var(--main-color);
 }
-
 
 /*design------------BLOGS SECTION------------*/
 section .container {
@@ -312,12 +281,12 @@ section .container {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-block: 2.5rem;
+    padding-block: 1.5rem;
 }
 
 .blog-post-title {
-    font-size: 4vw;
-    padding: 10px 0px;
+    font-size: 3vw;
+    padding: 20px 0px;
 }
 
 .blog-post-data .article-data {
@@ -333,7 +302,7 @@ section .container {
 
 .blog-post-container .container {
     width: 70%;
-    padding: 20px 50px;
+    padding: 10px 50px;
     display: flex;
     flex-direction: column;
     gap: var(--gap);
@@ -345,42 +314,6 @@ section .container {
 
 .container a {
     color: #4536e5;
-}
-
-.author {
-    margin-top: 5rem;
-    gap: var(--gap);
-    display: flex;
-    justify-content: left;
-    padding: 30px;
-}
-
-.author-image-box {
-    max-width: fit-content;
-    position: relative;
-    width: 80%;
-}
-
-.author img {
-    width: 30%;
-    height: auto;
-}
-
-.author-about {
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.author-name {
-    color: var(--light-color);
-    font-weight: 400;
-}
-
-.author-about p {
-    max-width: 50rem;
-    margin-bottom: 1rem;
 }
 
 /* ROOM 2 ----------------------------------------*/
