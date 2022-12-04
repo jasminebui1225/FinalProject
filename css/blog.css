@@ -334,6 +334,7 @@ section ul li {
 
 section ul li.active {
     background: #6759ff;
+    color: white;
 }
 
 .room-product {
