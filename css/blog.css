@@ -30,13 +30,10 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 10px 40px 10px 40px;
+    padding: 5px 40px 5px 40px;
     z-index: 100000;
     background-color: beige;
     list-style: none;
-    /*border-style: none none solid;
-    border-color: rgb(230, 230, 196);
-    border-radius: 1px;*/
 }
 
 header ul {
@@ -54,7 +51,7 @@ header ul li a {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 40px;
+    padding: 0px 10px;
 }
 
 .nav_links li a {
@@ -79,12 +76,13 @@ button:hover {
 }
 
 #header img {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 /* FOOTER */
@@ -305,8 +303,8 @@ section .container {
     color: #4536e5;
 }
 
-/* ROOM 2 ----------------------------------------*/
-section {
+/* ROOM PAGE --- FILTER ----------------------------------------*/
+#rooms {
     padding: 20px;
     width: 100%;
     display: flex;
@@ -316,15 +314,15 @@ section {
     margin: 30px auto;
 }
 
-section ul {
+#room-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-section ul li {
+#room-list li {
     list-style: none;
     padding: 12px 20px;
     margin: 20px 10px;
@@ -332,7 +330,7 @@ section ul li {
     cursor: pointer;
 }
 
-section ul li.active {
+#room-list li.active {
     background: #6759ff;
     color: white;
 }
@@ -370,10 +368,10 @@ section ul li.active {
 
 form {
     width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     max-width: 97%;
     border-radius: 4px;
-    padding: 45px 20px;
+    padding: 5px 20px;
 }
 
 form .title h2 {

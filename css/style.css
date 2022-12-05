@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 10px 40px 10px 40px;
+    padding: 5px 40px 5px 40px;
     z-index: 100000;
     background-color: beige;
     list-style: none;
@@ -51,7 +51,7 @@ header ul li a {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 40px;
+    padding: 0px 10px;
 }
 
 .nav_links li a {
@@ -76,12 +76,13 @@ button:hover {
 }
 
 #header img {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 /* SECTION 1: HERO IMAGE */
@@ -140,7 +141,7 @@ button:hover {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: pointer;
+
 }
 
 .style img {
@@ -196,6 +197,12 @@ button:hover {
     font-weight: 600;
 }
 
+.room-title a {}
+
+.room-title a:hover {
+    color: red;
+}
+
 .room-sec .room-title hr {
     width: 120px;
     margin: 14px auto;
@@ -229,7 +236,6 @@ button:hover {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: pointer;
 }
 
 .overlay1 {
