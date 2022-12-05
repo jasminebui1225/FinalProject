@@ -79,8 +79,8 @@ button:hover {
 }
 
 #header img {
-    width: 128px;
-    height: 50px;
+    width: 100px;
+    height: auto;
 }
 
 .logo {
@@ -98,7 +98,7 @@ button:hover {
     justify-content: space-between;
     grid-row-gap: 20px;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 .bg-footer .footer-flex .footer1 {
@@ -109,7 +109,7 @@ button:hover {
 .footer-flex .footer1 h2 {
     font-weight: 600;
     font-size: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-transform: capitalize;
 }
 
@@ -313,7 +313,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 section ul {
@@ -459,3 +459,9 @@ form .action {
 }
 
 /*-------------------------------------------------*/
+
+/* ABOUT SECTION----------------------------------*/
+.about-img img {
+    width: 60%;
+    height: auto;
+}
