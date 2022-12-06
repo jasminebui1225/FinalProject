@@ -11,7 +11,7 @@
 
 /*to declare css of root element, html*/
 :root {
-    background: beige;
+    background: #FCFBF4;
 }
 
 header li,
@@ -34,8 +34,9 @@ header {
     transition: 0.6s;
     padding: 5px 40px 5px 40px;
     z-index: 100000;
-    background-color: beige;
+    background-color: #FCFBF4;
     list-style: none;
+    border-color: #000;
 }
 
 header ul {
@@ -66,15 +67,16 @@ header ul li a {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
+    background-color: #FCFBF4;
+    border: 2px solid black;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.5);
+    background-color: #282B34;
+    color: white;
 }
 
 #header img {
@@ -244,8 +246,8 @@ section .container {
 }
 
 .design-title {
-    padding: 1rem;
-    font-size: auto;
+    padding: 0.5rem;
+    font-size: 1.2vw;
     text-align: center;
     width: 70%;
     margin: 0 auto;
