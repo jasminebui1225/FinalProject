@@ -5,47 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ROOM </title>
+    <title>Inspiration</title>
     <link rel="stylesheet" href="../css/blog.css">
 </head>
 
 <body>
     <!--Nav Bar-->
     <header id="header">
-        <div class="logo">
-            <a href="../index.html" class="logo-link"><img src="../img/logo.svg" class="logo-img" alt="logo"></a>
-        </div>
+        <div class="logo"><a href="../index.html"><img src="../img/logo.svg" alt="logo"></a></div>
 
         <nav>
             <ul class="nav_links">
-                <li><a href="inspo.html"> Inspo </a></li>
-                <li><a href="room.html"> Room </a></li>
-                <li><a href="blog.html"> Blog </a></li>
+                <li><a href="../pages/inspo.html"> Inspo </a></li>
+                <li><a href="../pages/room.html"> Room </a></li>
+                <li><a href="../pages/blog.html"> Blog </a></li>
                 <li><a href="about.html"> About </a></li>
             </ul>
         </nav>
 
         <!-- Contact Button -->
-        <a href="contact.html" class="cta"> <button> Contact Us </button></a>
-
+        <a href="#" class="cta"> <button> Contact Us </button></a>
     </header>
+    <!--End of Nav Bar-->
+
 
     <!-- FILTER SECTION -->
-    <section id="rooms">
+    <section id="inspo">
         <ul>
             <li class="list active" data-filter="all"> All </li>
-            <li class="list" data-filter="bed"> Bedroom </li>
-            <li class="list" data-filter="bath"> Bathroom </li>
-            <li class="list" data-filter="kitchen"> Kitchen </li>
-            <li class="list" data-filter="living"> Living Room </li>
+            <li class="list" data-filter="minimal"> Minimalistic </li>
+            <li class="list" data-filter="boho"> Boho </li>
+            <li class="list" data-filter="modern"> Modernism </li>
         </ul>
 
-        <div class="room-product">
-            <div class="itemBox" data-item="bed"><img src="../img/room/bedroom1.jpg"></div>
-            <div class="itemBox" data-item="bath"><img src="../img/room/bathroom1.jpg"></div>
-            <div class="itemBox" data-item="kitchen"><img src="../img/room/kitchen1.jpg"></div>
-            <div class="itemBox" data-item="living"><img src="../img/room/living1.jpg"></div>
-            <div class="itemBox" data-item="bed"><img src="../img/room/bedroom2.jpg"></div>
+        <div class="inspo-style">
+            <div class="itemBox" data-item="minimal"><img src="../img/room/bedroom1.jpg"></div>
+            <div class="itemBox" data-item="boho"><img src="../img/room/bathroom1.jpg"></div>
+            <div class="itemBox" data-item="modern"><img src="../img/room/kitchen1.jpg"></div>
+            <div class="itemBox" data-item="minimal"><img src="../img/room/living1.jpg"></div>
+            <div class="itemBox" data-item="boho"><img src="../img/room/bedroom2.jpg"></div>
             <div class="itemBox" data-item="bath"><img src="../img/room/bathroom2.jpg"></div>
             <div class="itemBox" data-item="kitchen"><img src="../img/room/kitchen2.jpg"></div>
             <div class="itemBox" data-item="living"><img src="../img/room/living2.jpg"></div>
@@ -83,19 +81,6 @@
             <div class="itemBox" data-item="living"><img src="../img/room/liv10.jpg"></div>
 
         </div>
-        <ul>
-            <li class="list active" data-filter="all"> All </li>
-            <li class="list" data-filter="bed"> Bedroom </li>
-            <li class="list" data-filter="bath"> Bathroom </li>
-            <li class="list" data-filter="kitchen"> Kitchen </li>
-            <li class="list" data-filter="living"> Living Room </li>
-        </ul>
-    </section>
-
-    <script src="../js/room.js">
-
-    </script>
-    <!-- end of room -->
 
     <!-- start footer section  -->
     <div class="bg-footer">
@@ -110,10 +95,10 @@
             </div>
             <div class="footer1">
                 <h2>helpful links</h2>
-                <li><a href="../pages/about.html">about us</a></li>
-                <li><a href="../pages/blog.html">our blog</a></li>
-                <li><a href="../index.html">visit site</a></li>
-                <li><a href="../pages/contact.html">contact us</a></li>
+                <li><a href="pages/about.html">about us</a></li>
+                <li><a href="pages/blog.html">our blog</a></li>
+                <li><a href="index.html">visit site</a></li>
+                <li><a href="pages/contact.html">contact us</a></li>
 
             </div>
             <div class="footer1">
@@ -130,5 +115,3 @@
     </div>
     <!-- END OF FOOTER -->
 </body>
-
-</html>

@@ -366,6 +366,14 @@ section ul li.active {
 
 }
 
+/*----------------INSPO----------------*/
+
+.inspo-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 /*--------------CONTACT FORM---------------------*/
 
 form {
