@@ -199,8 +199,6 @@ button:hover {
     font-weight: 600;
 }
 
-.room-title a {}
-
 .room-title a:hover {
     color: red;
 }
