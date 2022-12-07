@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: auto;
-    font-family: sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
 
 }
 
 /*to declare css of root element, html*/
 :root {
-    background: beige;
+    background: #FCFBF4;
 }
 
 header li,
@@ -30,13 +32,11 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 10px 40px 10px 40px;
+    padding: 5px 40px 5px 40px;
     z-index: 100000;
-    background-color: beige;
+    background-color: #FCFBF4;
     list-style: none;
-    /*border-style: none none solid;
-    border-color: rgb(230, 230, 196);
-    border-radius: 1px;*/
+    border-color: #000;
 }
 
 header ul {
@@ -54,7 +54,7 @@ header ul li a {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 40px;
+    padding: 0px 10px;
 }
 
 .nav_links li a {
@@ -67,24 +67,26 @@ header ul li a {
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
+    background-color: #FCFBF4;
+    border: 2px solid black;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.5);
+    background-color: #282B34;
+    color: white;
 }
 
 #header img {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 /* FOOTER */
@@ -166,7 +168,8 @@ section .container {
 }
 
 .design {
-    width: 90%;
+    /*width: 90%;*/
+    margin: 0px 60px;
 }
 
 .read {
@@ -195,8 +198,8 @@ section .container {
 }
 
 .title h2 {
-    font-size: 2.4rem;
-    padding-top: 40px;
+    font-size: 2vw;
+    padding-top: 100px;
 }
 
 .title p {
@@ -243,8 +246,8 @@ section .container {
 }
 
 .design-title {
-    padding: 1rem;
-    font-size: auto;
+    padding: 0.5rem;
+    font-size: 1.2vw;
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -275,7 +278,7 @@ section .container {
 
 .blog-post-title {
     font-size: 3vw;
-    padding: 20px 0px;
+    padding: 50px 0px 20px;
 }
 
 .blog-post-data .article-data {
@@ -305,8 +308,8 @@ section .container {
     color: #4536e5;
 }
 
-/* ROOM 2 ----------------------------------------*/
-section {
+/* ROOM PAGE --- FILTER ----------------------------------------*/
+#rooms {
     padding: 20px;
     width: 100%;
     display: flex;
@@ -316,15 +319,15 @@ section {
     margin: 30px auto;
 }
 
-section ul {
+#room-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-section ul li {
+#room-list li {
     list-style: none;
     padding: 12px 20px;
     margin: 20px 10px;
@@ -332,7 +335,7 @@ section ul li {
     cursor: pointer;
 }
 
-section ul li.active {
+#room-list li.active {
     background: #6759ff;
     color: white;
 }
@@ -403,10 +406,10 @@ section ul li.active {
 
 form {
     width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     max-width: 97%;
     border-radius: 4px;
-    padding: 45px 20px;
+    padding: 5px 20px;
 }
 
 form .title h2 {
@@ -494,7 +497,41 @@ form .action {
 /*-------------------------------------------------*/
 
 /* ABOUT SECTION----------------------------------*/
-.about-img img {
-    width: 60%;
+.about-sec {
+    width: 100%;
     height: auto;
+    overflow: hidden;
+}
+
+.about-row {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.about-img {
+    width: 30%;
+    float: left;
+}
+
+.about-img img {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.about-content {
+    float: left;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about-content h1 {
+    font-size: 60px;
+}
+
+.about-content p {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
 }

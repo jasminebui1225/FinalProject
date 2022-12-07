@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     height: auto;
-    font-family: sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
 
 }
 
 /*to declare css of root element, html*/
 :root {
-    background: beige;
+    background: #FCFBF4;
 }
 
 header li,
 a,
 button {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     color: black;
     text-decoration: none;
@@ -30,10 +32,11 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 10px 40px 10px 40px;
+    padding: 5px 40px 5px 40px;
     z-index: 100000;
-    background-color: beige;
+    background-color: #FCFBF4;
     list-style: none;
+    border-color: #000;
 }
 
 header ul {
@@ -51,7 +54,7 @@ header ul li a {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 40px;
+    padding: 0px 10px;
 }
 
 .nav_links li a {
@@ -59,29 +62,33 @@ header ul li a {
 }
 
 .nav_links li a:hover {
-    color: red;
+    color: black;
+    font-weight: 700;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
+    background-color: #FCFBF4;
+    border: 2px solid black;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 0.5);
+    background-color: #282B34;
+    color: white;
+    font-weight: 700;
 }
 
 #header img {
-    width: 100px;
+    width: 90px;
     height: auto;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: auto;
 }
 
 /* SECTION 1: HERO IMAGE */
@@ -140,7 +147,7 @@ button:hover {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: pointer;
+
 }
 
 .style img {
@@ -196,6 +203,10 @@ button:hover {
     font-weight: 600;
 }
 
+.room-title a:hover {
+    color: red;
+}
+
 .room-sec .room-title hr {
     width: 120px;
     margin: 14px auto;
@@ -229,7 +240,6 @@ button:hover {
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: pointer;
 }
 
 .overlay1 {
