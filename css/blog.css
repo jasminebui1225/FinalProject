@@ -17,7 +17,7 @@
 header li,
 a,
 button {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     color: black;
     text-decoration: none;
@@ -62,7 +62,8 @@ header ul li a {
 }
 
 .nav_links li a:hover {
-    color: red;
+    color: black;
+    font-weight: 700;
 }
 
 button {
@@ -77,6 +78,7 @@ button {
 button:hover {
     background-color: #282B34;
     color: white;
+    font-weight: 700;
 }
 
 #header img {
@@ -372,10 +374,33 @@ section .container {
 /*----------------INSPO----------------*/
 
 .inspo-style {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#inspo-list li {
+    list-style: none;
+    padding: 12px 20px;
+    margin: 20px 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#inspo-list li.active {
+    background: #6759ff;
+    color: white;
+}
+
+#inspo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 .inspo-style .itemBox {
@@ -384,7 +409,7 @@ section .container {
     height: 300px;
     margin: 5px;
     display: block;
-   
+
 }
 
 .inspo-style .itemBox img {
@@ -534,4 +559,36 @@ form .action {
     font-size: 20px;
     margin-top: 10px;
     line-height: 1.5;
+}
+
+/*----------------INSPO----------------*/
+
+.inspo-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inspo-style .itemBox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    display: block;
+
+}
+
+.inspo-style .itemBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inspo-style .itemBox.hide {
+    display: none;
+
 }
